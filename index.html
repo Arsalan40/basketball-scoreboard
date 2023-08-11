@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.cdnfonts.com/css/cursed-timer-ulil"
+      rel="stylesheet" />
+    <title>NBA'23</title>
+  </head>
+  <body>
+    <div class="cont">
+      <h1 class="heading">FIBA--NBA'23</h1>
+      <button class="reset-btn" onclick="reset()">New Game</button>
+      <h2 id="lead-text" class="lead-text"></h2>
+    </div>
+    <div class="container">
+      <div>
+        <h3 class="text">HOME</h3>
+        <div class="card">
+          <span id="countHome">0</span>
+        </div>
+        <div class="btn">
+          <button class="btn1" onclick="add1PointHome()">+1</button>
+          <button class="btn2" onclick="add2PointsHome()">+2</button>
+          <button class="btn3" onclick="add3PointsHome()">+3</button>
+        </div>
+      </div>
+      <div>
+        <h3 class="text">GUEST</h3>
+        <div class="card">
+          <span id="countGuest">0</span>
+        </div>
+        <div class="btn">
+          <button class="btn1" onclick="add1PointGuest()">+1</button>
+          <button class="btn2" onclick="add2PointsGuest()">+2</button>
+          <button class="btn3" onclick="add3PointsGuest()">+3</button>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
